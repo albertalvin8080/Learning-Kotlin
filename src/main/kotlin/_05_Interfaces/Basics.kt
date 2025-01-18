@@ -10,3 +10,8 @@ class Cat(override val name: String, private val age: Int) : Animal {
         println("Cat($name, $age) says: pay for your sins.")
     }
 }
+
+fun main() {
+    val a1 = Cat("bimbo", 10)
+    a1.makeSound()
+}

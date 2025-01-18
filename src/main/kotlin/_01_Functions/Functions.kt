@@ -1,4 +1,4 @@
-package org.albert
+package org.albert._01_Functions
 
 fun sayHello(greeting: String = "Hi!", vararg name: String = arrayOf("Johan")): Unit {
     println("$greeting ${name.contentToString()}")

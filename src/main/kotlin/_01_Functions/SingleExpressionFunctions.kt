@@ -1,4 +1,4 @@
-package org.albert
+package org.albert._01_Functions
 
 fun add(a: Float, b: Float): Float = a + b
 fun sub(a: Float, b: Float): Float = a - b

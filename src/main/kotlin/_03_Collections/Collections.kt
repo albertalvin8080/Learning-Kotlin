@@ -1,4 +1,4 @@
-package org.albert
+package org.albert._03_Collections
 
 fun main() {
     var arr = arrayOf(1, 2, 3)

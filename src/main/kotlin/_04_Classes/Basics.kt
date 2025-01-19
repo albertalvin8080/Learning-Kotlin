@@ -2,9 +2,9 @@ package _04_Classes
 
 abstract class Person
 
-class Author(var name: String, var age: Int) : Person()
+private class Author(var name: String, var age: Int) : Person()
 
-class Author2(name: String, age: Int) : Person() {
+private class Author2(name: String, age: Int) : Person() {
 
     companion object {
         val data1 = "some data"

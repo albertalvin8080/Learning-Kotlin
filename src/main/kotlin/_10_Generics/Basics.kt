@@ -1,6 +1,10 @@
 package _10_Generics
 
-abstract class Player(var name: String)
+abstract class Player(var name: String) {
+    override fun toString(): String {
+        return "Player { $name }"
+    }
+}
 class SoccerPlayer(name: String) : Player(name)
 class BasketPlayer(name: String) : Player(name)
 
